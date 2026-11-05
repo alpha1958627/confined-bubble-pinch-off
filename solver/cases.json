@@ -1,0 +1,29 @@
+{
+  "common": {
+    "R_m": 0.00025,
+    "L_over_R": 7.108612701053386,
+    "rho_l": 1000,
+    "rho_g": 1,
+    "mu_g": 0.000018,
+    "sigma": 0.04,
+    "mu": 1,
+    "initial_mean_radius_over_R": 0.8,
+    "initial_amplitude_over_R": 0.1,
+    "wall": "no-slip impermeable",
+    "axial": "periodic",
+    "initial_conformation": "identity"
+  },
+  "cases": [
+    {"id":1,"model":"Oldroyd-B","lambda_s":3,"polymer_fraction":0.99,"L2":null},
+    {"id":2,"model":"Oldroyd-B","lambda_s":0.3,"polymer_fraction":0.99,"L2":null},
+    {"id":3,"model":"Oldroyd-B","lambda_s":0.03,"polymer_fraction":0.99,"L2":null},
+    {"id":4,"model":"Oldroyd-B","lambda_s":0.003,"polymer_fraction":0.99,"L2":null},
+    {"id":5,"model":"Oldroyd-B","lambda_s":30,"polymer_fraction":0.99,"L2":null},
+    {"id":6,"model":"Oldroyd-B","lambda_s":3,"polymer_fraction":0.9,"L2":null},
+    {"id":7,"model":"Oldroyd-B","lambda_s":3,"polymer_fraction":0.5,"L2":null},
+    {"id":8,"model":"FENE-P","lambda_s":3,"polymer_fraction":0.99,"L2":30},
+    {"id":9,"model":"FENE-P","lambda_s":3,"polymer_fraction":0.99,"L2":300},
+    {"id":10,"model":"FENE-P","lambda_s":0.03,"polymer_fraction":0.99,"L2":30},
+    {"id":11,"model":"FENE-P","lambda_s":0.03,"polymer_fraction":0.99,"L2":300}
+  ]
+}

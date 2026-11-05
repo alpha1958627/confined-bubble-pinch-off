@@ -1,0 +1,86 @@
+{
+  "stop_time_s": 0.4291923095479853,
+  "stop_radius_um": 1.82807028316995,
+  "late_free_power_fit": {
+    "points": 28,
+    "alpha": 0.9028632638802522,
+    "offset_after_stop_us": 8.019180691936768,
+    "log_rms": 0.0006450694821730016
+  },
+  "late_fit_above_1p9um": {
+    "points": 7,
+    "alpha": 0.8943071058262265,
+    "offset_after_stop_us": 7.872282409208757,
+    "log_rms": 0.0004486225674564029
+  },
+  "extrapolated_tc_power_s": 0.42920032872867725,
+  "extrapolated_tc_linear_s": 0.42920189683602733,
+  "linear_rate_m_s": 0.19304591375382388,
+  "linear_rate_over_sigma_over_mu": 0.48261478438455974,
+  "linear_weighted_relative_rms": 0.00483183670383003,
+  "windows": [
+    {
+      "window_low_um": 50,
+      "window_high_um": 150,
+      "points": 88,
+      "actual_min_um": 50.659188459388176,
+      "actual_max_um": 149.97948945053903,
+      "alpha_anchor_power": 0.1880985244742304,
+      "alpha_anchor_linear": 0.1881350421113518
+    },
+    {
+      "window_low_um": 75,
+      "window_high_um": 125,
+      "points": 33,
+      "actual_min_um": 77.0275292048114,
+      "actual_max_um": 124.48836788399151,
+      "alpha_anchor_power": 0.16810544292426963,
+      "alpha_anchor_linear": 0.16811829428820807
+    },
+    {
+      "window_low_um": 20,
+      "window_high_um": 45,
+      "points": 31,
+      "actual_min_um": 21.126600197475124,
+      "actual_max_um": 44.67008903211782,
+      "alpha_anchor_power": 0.48305518156186755,
+      "alpha_anchor_linear": 0.485365817715407
+    },
+    {
+      "window_low_um": 10,
+      "window_high_um": 25,
+      "points": 15,
+      "actual_min_um": 10.804479270127626,
+      "actual_max_um": 24.312320045745725,
+      "alpha_anchor_power": 0.6741895510162945,
+      "alpha_anchor_linear": 0.6840556049662776
+    },
+    {
+      "window_low_um": 5,
+      "window_high_um": 20,
+      "points": 16,
+      "actual_min_um": 5.441696979492475,
+      "actual_max_um": 19.824910757916204,
+      "alpha_anchor_power": 0.7691316964555556,
+      "alpha_anchor_linear": 0.7902700418823798
+    },
+    {
+      "window_low_um": 2,
+      "window_high_um": 10,
+      "points": 13,
+      "actual_min_um": 2.1058282986989894,
+      "actual_max_um": 9.828857884032754,
+      "alpha_anchor_power": 0.8793285254997536,
+      "alpha_anchor_linear": 0.944410982434394
+    },
+    {
+      "window_low_um": 1.82,
+      "window_high_um": 5,
+      "points": 28,
+      "actual_min_um": 1.82807028316995,
+      "actual_max_um": 4.66331719182694,
+      "alpha_anchor_power": 0.9028632638728197,
+      "alpha_anchor_linear": 1.0059166406108346
+    }
+  ]
+}

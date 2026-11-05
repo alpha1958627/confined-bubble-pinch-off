@@ -1,0 +1,32 @@
+{
+  "R_m": 0.00025,
+  "L_over_R": 7.108612701053386,
+  "rho_l": 1000,
+  "rho_g": 1,
+  "mu_g": 1.8e-05,
+  "sigma": 0.04,
+  "mu": 1,
+  "initial_mean_radius_over_R": 0.8,
+  "initial_amplitude_over_R": 0.1,
+  "wall": "no-slip impermeable",
+  "axial": "periodic",
+  "initial_conformation": "identity",
+  "id": 6,
+  "model": "Oldroyd-B",
+  "lambda_s": 3,
+  "polymer_fraction": 0.9,
+  "L2": null,
+  "ns": 97,
+  "ny": 13,
+  "time_unit_s": 0.000625,
+  "De": 4800.0,
+  "Ec": 0.0018750000000000001,
+  "Oh_solvent": 0.9999999999999998,
+  "mu_s": 0.09999999999999998,
+  "mu_p": 0.9,
+  "coupling_check": {
+    "stationary_residual": 4.75709325105182e-14,
+    "jacobian_direction_error": 4.821093420836279e-10,
+    "analytic_steady_shear_residual": 1.1102230246251565e-16
+  }
+}

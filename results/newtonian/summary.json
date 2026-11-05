@@ -1,0 +1,26 @@
+{
+  "status": "NUMERICAL_LIMIT",
+  "t_start": 484.5,
+  "t": 485.5756680231939,
+  "closed": false,
+  "preclosure_stop": false,
+  "accepted_macrosteps": 42,
+  "rejections": 25,
+  "last": {
+    "step": 79,
+    "t": 485.5756680231939,
+    "a_min": 0.007312281132679869,
+    "base_dt": 1.958282951312829e-06,
+    "accepted_dt": 9.791414756564144e-07,
+    "local_profile_error": 1.270095140171179e-13,
+    "local_pressure_error": 1.3218417177028539e-10,
+    "local_velocity_error": 1.738849724187799e-12,
+    "actual_divergence": 0.00024022357150954576,
+    "volume_error": -2.371108294241253e-05,
+    "pressure_max": 8.208210878512023,
+    "wall_speed": 1.0000116014834672e-29,
+    "wall_seconds": 15761.478798627853
+  },
+  "wall_seconds": 16054.846990346909,
+  "note": "No radius target. Numerical termination never proves topology closure."
+}
