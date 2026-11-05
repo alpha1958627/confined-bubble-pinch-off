@@ -20,6 +20,8 @@ The JAM effective exponent is about **0.188** over 50–150 μm. A free fit over
 
 The profile plot uses $a/a_{\min}$ and $(z-z_{\min})/\sqrt{Ra_{\min}}$. The last three plotted frames have normalized half-widths of about 0.521–0.537 at $a=2a_{\min}$. The native last frame, scaling windows, and plotted JAM data are in [results/newtonian](results/newtonian).
 
+The [plotting notebook](notebooks/液膜聚合.ipynb) includes the original comparison figure, the JAM/Basilisk remaining-time plot, and the normalized JAM neck profiles. Its saved figures can be viewed on GitHub. To rerun the plotting cells, open the notebook from a clone and use an environment with Jupyter, NumPy, Pandas, Matplotlib, and LaTeX with dvipng.
+
 ## Viscoelastic screening
 
 All 11 cases start from rest with equilibrium conformation. The liquid density, zero-shear viscosity and surface tension are $1000\,\mathrm{kg\,m^{-3}}$, $1\,\mathrm{Pa\,s}$ and $0.04\,\mathrm{N\,m^{-1}}$. Case 1 uses $\mu_s=0.01\,\mathrm{Pa\,s}$, $\mu_p=0.99\,\mathrm{Pa\,s}$ and $\lambda=3\,\mathrm{s}$.
